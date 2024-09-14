@@ -1,0 +1,72 @@
+html, body{
+    margin:0px;
+    padding:0px;
+    height:200%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    background-color: #EAEAEA;
+    color: #EAEAEA;
+    height:80px;
+    width:100%;
+    font-family: "Jockey One", sans-serif;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none
+}
+
+.head{
+    display: flex;
+    float: left;
+    font-size:50px;
+    color:black;
+    position:absolute;
+    left:130px;
+}
+
+.home,.dashboard,.about{
+    display: flex;
+    border:none;
+    float: right;
+    color:black;
+    background-color: transparent;
+    font-family: "Jockey One", sans-serif;
+    font-size:30px;
+    cursor:pointer;
+    position: relative;
+    margin: 0;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left:-10px;
+    text-decoration: none;
+}
+img{
+    float: left;
+    position: relative;
+    left:10px;
+}
+p{
+    margin-top:0;
+    position: relative;
+}
+
+
+#about{
+    height:500px;
+    position: relative;
+}
+h{
+    position: relative;
+    top: 48%;
+    left: 48%;
+    transform: translate(-48%, -48%);
+    text-align: center; 
+    font-family: "Jockey One", sans-serif;
+    font-size:30px;
+
+}
+
